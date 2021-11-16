@@ -85,7 +85,7 @@ ax1.grid(which='minor', color = 'k', linestyle = '--', alpha = 0.1)
 #настройка подписей
 font = 8
 plt.title('Калибровачный график зависимости показаний АЦП от давления')
-plt.xlabel('Давление [Па]')
+plt.xlabel('Давление [мм рт. ст.]')
 plt.ylabel('Отсчеты АЦП')
 plt.legend()
 #сохранение графика в формате svg
