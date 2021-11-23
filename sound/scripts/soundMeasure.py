@@ -1,6 +1,6 @@
 import requests
 
-ip = '' # Usually 192.168.212.X. Find X in oscilloscope settings
+ip = '192.168.212.39' # Usually 192.168.212.X. Find X in oscilloscope settings
 
 if (ip == ''):
     print('Setup ip-address of Tekronix oscilloscope')
